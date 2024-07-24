@@ -1,7 +1,7 @@
 /************************
 Autor: Juan Diego Carreño
 Materia: Estructuras de datos
-Fecha: 24 de julio de 2024
+Fecha: 17 de julio de 2024
 *************************/
 
 #include <iostream>
