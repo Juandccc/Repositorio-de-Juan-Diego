@@ -1,3 +1,9 @@
+/************************
+Autor: Juan Diego Carreño
+Materia: Estructuras de datos
+Fecha: 24 de julio de 2024
+*************************/
+
 #include <iostream>
 using namespace std;
 
