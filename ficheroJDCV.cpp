@@ -65,47 +65,49 @@ int main(){
 	string palabra = "Palabra";
 	char substring = 'g';
 	bool caracter = lineal(palabra, substring, palabra.length()-1);
-    int opcion = 0;
+    	int opcion = -1;
     
-    cout<<"Escoja la operacion que desea realizar: "<<endl;
-    cout<<"1. Suma de dos numeros"<<endl;
-    cout<<"2. Cuadrados pares - Metodo 1"<<endl;
-    cout<<"3. Cuadrados pares - Metodo 2"<<endl;
-    cout<<"4. Sucesion de fibonacci"<<endl;
-    cout<<"5. Lineal"<<endl;
-    cout<<"0. Salir"<<endl;
-    cin>>opcion;
-    
-    switch(opcion){
-        case 1:{
-            cout << "Suma: " << sumaNumeros << endl;
-            break;
-        }
-        case 2:{
-            cout << "Cuadrados pares: " << cuadradosPares << endl;
-            break;
-        }
-        case 3:{
-            cout << "Cuadrados pares: " << cuadradosPares2 << endl;
-            break;
-        }
-        case 4:{
-            cout << "Fibonacci: " << numFib << endl;
-            break;
-        }
-        case 5:{
-            cout << "Caracter encontrado: " << caracter << endl;
-            break;
-        }
-        case 0:{
-            return 0;
-        }
+    do {
+        cout<<"Escoja la operacion que desea realizar: "<<endl;
+        cout<<"1. Suma de dos numeros"<<endl;
+        cout<<"2. Cuadrados pares - Metodo 1"<<endl;
+        cout<<"3. Cuadrados pares - Metodo 2"<<endl;
+        cout<<"4. Sucesion de fibonacci"<<endl;
+        cout<<"5. Lineal"<<endl;
+        cout<<"0. Salir"<<endl;
+        cin>>opcion;
         
-        default:{
-            cout<<"Opcion invalida";
-            break;
-        }
-    }
+        switch(opcion){
+	        case 1:{
+	            cout << "Suma: " << sumaNumeros << endl;
+	            break;
+	        }
+	        case 2:{
+	            cout << "Cuadrados pares: " << cuadradosPares << endl;
+	            break;
+	        }
+	        case 3:{
+	            cout << "Cuadrados pares: " << cuadradosPares2 << endl;
+	            break;
+	        }
+	        case 4:{
+	            cout << "Fibonacci: " << numFib << endl;
+	            break;
+	        }
+	        case 5:{
+	            cout << "Caracter encontrado: " << caracter << endl;
+	            break;
+	        }
+	        case 0:{
+	            return 0;
+	        }
+	        
+	        default:{
+	            cout<<"Opcion invalida"<<endl;
+	            break;
+	        }
+    	}
+    }while(opcion !=0);
+    
     return 0;
 }
-
