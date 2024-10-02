@@ -1,3 +1,8 @@
+/*********************************
+ * Autor: Juan Carreño
+ * Materia: Estructuras de datos
+*********************************/
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
